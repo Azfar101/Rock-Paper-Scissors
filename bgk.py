@@ -1,12 +1,10 @@
 #make a program to calculate the number of fingers using mediapipe and opencv
-from turtle import delay
 import cv2 as cv
 import numpy as np
 import mediapipe as mp
 import math
 import random
 import autopy
-import threading
 
 global player
 global computer
@@ -74,27 +72,18 @@ while cap.isOpened():
             for id, landmark, in enumerate(hand_landmarks.landmark):
                 x, y = int(landmark.x * image.shape[1]), int(landmark.y * image.shape[0])
 
-                #jari telunjuk
                 if id == 8:
                     x1 = x
                     y1 = y
 
-                #jari tengah
                 elif id == 12:
                     x2 = x
                     y2 = y
 
-                # #dasar jari telunjuk
-                # if id == 5:
-                #     x3 = x
-                #     y3 = y
-                
-                #dasar jari tengah
                 elif id == 9:
                     x4 = x
                     y4 = y
 
-                #jari manis
                 if id == 16:
                     x5 = x
                     y5 = y
