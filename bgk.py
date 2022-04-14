@@ -1,4 +1,3 @@
-#make a program to calculate the number of fingers using mediapipe and opencv
 import cv2 as cv
 import numpy as np
 import mediapipe as mp
