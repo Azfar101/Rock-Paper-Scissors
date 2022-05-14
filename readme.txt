@@ -1,5 +1,4 @@
-hmm hello if you read this
-I am sorry if my code is messy as hell cuz I am not an expert just yet
-you can use my code but it would be really good if you credit me for it
+UPDATE :
+This code would only work for python 3.8 or below because autopy is not yet supported in python 3.9 or above
 
-yeah thats it I guess, have a nice day
+feel free to contact me for any suggestion
